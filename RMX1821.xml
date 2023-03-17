@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- Remote -->
+   	<remote  name="RMX1821-devs"
+		fetch="https://github.com/RMX1821-devs" />
+   	<remote  name="RMX1821-dev"
+		fetch="https://gitlab.com/RMX1821-dev" />
+
+   <!-- Device Trees -->
+   <project path="device/realme/RMX1821" name="android_device_realme_RMX1821" revision="lineage-20.0" remote="RMX1821-devs" />
+   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20.0" remote="RMX1821-devs" />
+
+   <!-- Kernel Source -->
+   <project path="kernel/realme/RMX1821" name="android_kernel_realme_RMX1821" revision="Q" remote="RMX1821-devs" />
+
+   <!-- Vendor Blobs -->
+   <project path="vendor/realme/RMX1821" name="android_vendor_realme_RMX1821" revision="lineage-20.0" remote="RMX1821-dev" />
+   <project path="vendor/realme/RMX1821-ims" name="android_vendor_realme_RMX1821-ims" revision="lineage-20.0" remote="RMX1821-dev" />
+</manifest>
